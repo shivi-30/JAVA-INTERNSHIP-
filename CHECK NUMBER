@@ -1,0 +1,15 @@
+package demo;
+
+public class Check {
+    public static void main(String[] args) {
+        double number = 10.5; // You can change this to any number you want to check
+
+        if (number > 0) {
+            System.out.println(number + " is positive.");
+        } else if (number < 0) {
+            System.out.println(number + " is negative.");
+        } else {
+            System.out.println("The number is zero.");
+        }
+    }
+}
